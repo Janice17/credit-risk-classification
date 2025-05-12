@@ -20,7 +20,7 @@ Jupyter Notebook code (credit_risk_classification.ipynb)
 4. Answered the question in the notebook.
 # Results
 This section describes the accuracy scores, the precision, and recall scores of the logistic regression model:  
-![alt text](../Classification_Report.png)
+![alt text](Credit_Risk/Resources/Classification_Report.png)
 - Accuracy is 0.99, this model does a great job in predicting both the 0 (healthy loan) and 1 (high-risk loan).  
 - The precision scores show that the healthy loans were classified correctly as positive 100% of the times. However, the high-risk loans classification was correct only 85% of the times.  
 - The recall scores show that for all the times where the loans were actually healthy, 99% of the times they were classified correctly. However, for all the times where the loans were actually high-risk, they were classified correctly 95% of the times.
